@@ -1,51 +1,47 @@
-const date = new Date();
+document.addEventListener("DOMContentLoaded", function () {
+    const date = new Date();
 
-let day = date.getDate();
-let month = date.getMonth() + 1;
-let year = date.getFullYear();
-let monthworda = monthworda();
+    let day = date.getDate();
+    let month = date.getMonth() + 1;
+    let year = date.getFullYear();
 
-function monthworda(){
-    switch(expression) {
-        case month = 1:
-          return "January"
-          break;
-        case month == 2:
-            return "Febuary"
-            break;
-        case month == 3:
-            return "March"
-            break;
-        case month == 4:
-            return "April"
-            break;
-        case month == 5:
-            return "May"
-            break;
-        case month == 6:
-            return "June"
-            break;
-        case month == 7:
-            return "July"
-            break;
-        case month == 8:
-            return "August"
-            break;
-        case month == 9:
-            return "September"
-            break;
-        case month == 10:
-            return "October"
-            break;
-        case month == 11:
-            return "November"
-            break;
-        case month == 12:
-            return "December"
-            break;
-        default:
-          console.log("error")
-      }
-}
-// This arrangement can be altered based on how we want the date's format to appear.
-let currentDate = `${day}-${monthworda}-${year}`;
+    function monthworda() {
+        switch (month) {
+            case 1:
+                return "January";
+            case 2:
+                return "February";
+            case 3:
+                return "March";
+            case 4:
+                return "April";
+            case 5:
+                return "May";
+            case 6:
+                return "June";
+            case 7:
+                return "July";
+            case 8:
+                return "August";
+            case 9:
+                return "September";
+            case 10:
+                return "October";
+            case 11:
+                return "November";
+            case 12:
+                return "December";
+            default:
+                return "Invalid Month";
+        }
+    }
+
+    let currentDate = `${day} ${monthworda()} ${year}`;
+    let dateElement = document.getElementById("date");
+
+    if (dateElement) {
+        dateElement.innerHTML = currentDate;
+    } else {
+        console.error("Element with id 'date' not found.");
+    }
+});
