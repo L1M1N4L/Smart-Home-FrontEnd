@@ -26,7 +26,7 @@
   }
   
   body {
-    background-color: rgba(89, 162, 251, 0.61);
+    background-color: #2e5090;
   }
   
   .dashboard {
@@ -190,7 +190,7 @@
   .appliance label .f {
     width: 16px;
     height: 22px;
-    background-color: #3976f6;
+    background-color: #2e5090;
     display: block;
     position: absolute;
     border-radius: 2px;
@@ -203,7 +203,7 @@
   .appliance label .a {
     width: 23px;
     height: 10px;
-    background-color: #3976f6;
+    background-color: #2e5090;
     display: block;
     position: absolute;
     border-radius: 2px;
@@ -220,7 +220,7 @@
     height: 8px;
     border-width: 3px;
     border-style: solid;
-    border-color: transparent transparent #3976f6;
+    border-color: transparent transparent #2e5090;
     top: 10px;
     border-radius: 50%;
     transform: rotate(72deg);
@@ -235,7 +235,7 @@
   .appliance label .r {
     width: 23px;
     height: 9px;
-    background-color: #3976f6;
+    background-color: #2e5090;
     display: block;
     position: absolute;
     border-radius: 3px;
@@ -245,7 +245,7 @@
     content: "";
     border-width: 2px;
     border-style: solid;
-    border-color: rgba(57, 118, 246, 0.61) transparent transparent;
+    border-color: #2e5090 transparent transparent;
     border-radius: 50%;
     position: absolute;
     display: block;
@@ -265,7 +265,7 @@
   .appliance label .l {
     width: 22px;
     height: 13px;
-    background-color: #3976f6;
+    background-color: #2e5090;
     display: block;
     position: absolute;
     border-radius: 22px 22px 0 0;
@@ -275,7 +275,7 @@
     content: "";
     width: 3px;
     height: 8px;
-    background-color: rgba(57, 118, 246, 0.61);
+    background-color: #2e5090;
     display: block;
     top: -8px;
     position: absolute;
@@ -297,7 +297,7 @@
   }
   .appliance input:checked + label::before {
     content: "";
-    background: linear-gradient(to bottom, #5ca368bb 0%, #40834ac4 100%);
+    background: linear-gradient(to bottom, #2e7c3b 0%, #245f2c 100%);
   }
   .appliance input:checked + label * {
     color: white;
@@ -309,10 +309,10 @@
     background-color: rgba(255, 255, 255, 0.61);
   }
   .appliance input:checked + label i.f {
-    background-image: linear-gradient(0deg, rgba(89, 162, 251, 0.61) 2px, transparent 2px), linear-gradient(0deg, rgba(89, 162, 251, 0.61) 12px, transparent 0);
+    background-image: linear-gradient(0deg, #2e5090 2px, transparent 2px), linear-gradient(0deg, #2e5090 12px, transparent 0);
   }
   .appliance input:checked + label i.a {
-    background-image: linear-gradient(0deg, rgba(89, 162, 251, 0.61) 2px, transparent 2px);
+    background-image: linear-gradient(0deg, #2e5090 2px, transparent 2px);
   }
   .appliance input:checked + label i.a::before, .appliance input:checked + label i.a::after {
     background-color: rgba(255, 255, 255, 0);
@@ -328,7 +328,7 @@
   .appliance input:checked + label small {
     width: 30px;
     height: 15px;
-    background-color: #3976f6;
+    background-color: #2e5090bb;
   }
   .appliance input:checked + label small::before {
     width: 13px;
