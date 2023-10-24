@@ -1,115 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-</head>
-<body>
-    <div class="dashboard">
-        <header>
-          <div class="f fe">
-            <div class="icon icon-w"></div>
-            <div class="heading">
-              <h5 class="date" id="date"></h5>
-              <h2 class="title">Cloudy</h2>
-            </div>
-          </div>
-          
-          <div class="weather f">
-            <div>
-              <strong>26°<sup>C</sup></strong>
-              <p>Indoor Temp.</p>
-            </div>
-            <div>
-              <strong>48.2%</strong>
-              <p>Outdoor Humidity</p>
-            </div>
-            <div>
-              <strong>52.99</strong>
-              <p>Indoor Temp.</p>
-            </div>
-          </div>
-        </header>
-        <section>
-        <!-- Category -->
-          <div class="category">
-            <ul>
-              <li><a href="#!" class="active">Living Room</a></li>
-              <li><a href="#!">Kitchen</a></li>
-              <li><a href="#!">Dinning</a></li>
-              <li><a href="#!">Weather</a></li>
-            </ul>
-          </div>
-        <!-- Appliances -->
-          <div class="appliances">
-            
-            <div class="appliance">
-              <input type="checkbox" name="a" id="a">
-              <label for="a">
-                <i class="l"></i>
-                <strong>Lamp</strong>
-                <span data-o="opened" data-c="closed"></span>
-                <small></small>
-              </label>
-            </div>
-            
-            <div class="appliance">
-              <input type="checkbox" name="a" id="b">
-              <label for="b">
-                <i class="r"></i>
-                <strong>Router</strong>
-                <span data-o="opened" data-c="closed"></span>
-                <small></small>
-              </label>
-            </div>
-            
-            <div class="appliance">
-              <input type="checkbox" name="a" id="c">
-              <label for="c">
-                <i class="a"></i>
-                <strong>Air</strong>
-                <span data-o="opened" data-c="closed"></span>
-                <small></small>
-              </label>
-            </div>
-            
-            <div class="appliance">
-              <input type="checkbox" name="a" id="d">
-              <label for="d">
-                <i class="f"></i>
-                <strong>Fridge</strong>
-                <span data-o="opened" data-c="closed"></span>
-                <small></small>
-              </label>
-            </div>
-            
-            <div class="m-player">
-              <h2>Music</h2>
-              <br>
-              <div class="player">
-                <div class="disc"></div>
-                <div class="artist">
-                  <p>夢地図</p>
-                  <small>初音ミク - atwiki</small>
-          
-                </div>
-                <div class="controls">
-                  <input type="checkbox" name="a" id="p">
-                  <label for="p">
-                    <div class="control"></div>
-                  </label>
-                </div>
-              </div>
-            </div>
-            
-            <button class="logout-button">Log Out</button>
-          </div>
-        </section>
-      </div>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Animated Login Form | CodingNepal</title>
+    <link rel="stylesheet" href="stylelogin.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Login</h1>
+      <form action="dashboard.html">
+        <div class="txt_field">
+          <input type="text" required>
+          <span></span>
+          <label>Username</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pass">Forgot Password?</div>
+          <input type="submit" value="Login">
+        <div class="signup_link">
+          Not a member? <a href="#">Signup</a>
+        </div>
+      </form>
+    </div>
 
-    
-</body>
+  </body>
 </html>

@@ -45,3 +45,8 @@ document.addEventListener("DOMContentLoaded", function () {
         console.error("Element with id 'date' not found.");
     }
 });
+
+
+      function meowmeow() {
+        window.location.href="https://l1m1n4l.github.io/Smart-Home-FrontEnd/dashboard.html";  
+      }
